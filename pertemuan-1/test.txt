@@ -4,4 +4,4 @@ unsur
 teknik
 IF-B
 22
-futsal
+futsal IF
