@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List Application</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex justify-center items-center min-h-screen">
+
+  <div class="bg-white p-8 rounded shadow-md w-96">
+    <h1 class="text-2xl font-bold mb-4 text-center">Todo List Application</h1>
+    
+    
+    <div class="flex mb-4">
+      <input type="text" placeholder="Inputkan tugas yang akan dikerjakan.." class="w-full p-2 border border-gray-300 rounded-l focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <button class="bg-green-500 text-white p-2 rounded-r hover:bg-blue-600">TAMBAH</button>
+    </div>
+
+    
+    <ul>
+      
+      <li class="flex justify-between items-center mb-2">
+        <span>jadwal olahraga</span>
+        <div class="flex space-x-2">
+          <button class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-green-600">SELESAI</button>
+          <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">HAPUS</button>
+        </div>
+      </li>
+      
+      <li class="flex justify-between items-center mb-2">
+        <span>jadwal sholat</span>
+        <div class="flex space-x-2">
+          <button class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-green-600">SELESAI</button>
+          <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">HAPUS</button>
+        </div>
+      </li>
+      
+      <li class="flex justify-between items-center mb-2">
+        <span>jadwal puasa</span>
+        <div class="flex space-x-2">
+          <button class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-green-600">SELESAI</button>
+          <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">HAPUS</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
